@@ -29,14 +29,14 @@
 		</ul>
 	</nav>
 
-	<!-- TOP -->
+
 	<div id="top" class="pagefull">
 		<div id="top-bg-holder" class="bg-holder">
 		</div>
 		<div class="container">
 	     	<div class="page-header">
 		     	<h1>YAWDS</h1>
-		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		     	<p class="lead">YAWDS Provides Taglines. <a href="http://google.com">TAGLINE</a>.</p>
 		    </div>
 
 	    	<h3>Why YAWDS</h3>
@@ -64,10 +64,9 @@
 	    	</div>
 	    </div>
     </div>
-    <!--/TOP -->
 
 
-    <!-- WHY -->
+
 	<div id="why" class="pagefull">
 		<div id="why-bg-holder" class="bg-holder">
 		</div>
@@ -102,153 +101,153 @@
 	    	</div>
 	    </div>
     </div>
-    <!--/WHY -->
 
-    <!-- SERVICES -->
+
 	<div id="services" class="pagefull">
-		<div id="services-bg-holder" class="services">
-			<img class="background-image">
+		<div id="services-bg-holder" class="bg-holder">
 		</div>
-     	<div class="page-header">
-	     	<h1>SERVICES YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
-	    </div> n
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>SERVICES YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div> n
 
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
 
-    	<div class="row-spacer"></div>
+	    	<div class="row-spacer"></div>
 
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
-    	</div>
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
+	    </div>
     </div>
-    <!--/SERVICES -->
 
-    <!-- PRICING -->
+
 	<div id="pricing" class="pagefull">
-		<div id="why-bg-pricing" class="pricing">
-			<img class="background-image">
+		<div id="why-bg-pricing" class="bg-holder">
 		</div>
-     	<div class="page-header">
-	     	<h1>PRICING YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
-	    </div>
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>PRICING YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div>
 
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
 
-    	<div class="row-spacer"></div>
+	    	<div class="row-spacer"></div>
 
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
     	</div>
     </div>
-    <!--/PRICING -->
 
-    <!-- SUPPORT -->
+
+
 	<div id="support" class="pagefull">
-		<div id="support-bg-holder" class="support">
-			<img class="background-image">
+		<div id="support-bg-holder" class="bg-holder">
 		</div>
-     	<div class="page-header">
-	     	<h1>SUPPORT YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>SUPPORT YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div>
+
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
+
+	    	<div class="row-spacer"></div>
+
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
 	    </div>
-
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
-
-    	<div class="row-spacer"></div>
-
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
-    	</div>
     </div>
-    <!--/SUPPORT -->
 
-    <!-- GETSTARTED -->
+
+
 	<div id="getstarted" class="pagefull">
-		<div id="getstarted-bg-holder" class="getstarted">
-			<img class="background-image">
+		<div id="getstarted-bg-holder" class="bg-holder">
 		</div>
-     	<div class="page-header">
-	     	<h1>GETSTARTED YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
-	    </div>
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>GETSTARTED YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div>
 
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
 
-    	<div class="row-spacer"></div>
+	    	<div class="row-spacer"></div>
 
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
 
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
     	</div>
     </div>
-    <!--/GETSTARTED -->
 
-	
 
     <!-- Scripts -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

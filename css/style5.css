@@ -13,6 +13,7 @@
 	border-style: solid;
 	border-color: rgba(0,0,0,0.6); /* Background color of navigation */
 	background-color: rgba(0,0,0,0);
+	z-index: 5;
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
@@ -157,6 +158,11 @@
 }
 
 @media screen and (max-height: 31.125em) {
+	.bt-menu ul
+	{
+		top: 20px;
+	}
+
 	.bt-menu ul li a 
 	{
 		font-size: 18px;
@@ -166,7 +172,7 @@
 	.bt-menu-trigger {
 		position: fixed;
 		top: 5px;
-		right: 10px;
+		right: 5px;
 		display: block;
 		width: 30px;
 		height: 30px;
