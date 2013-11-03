@@ -37,7 +37,7 @@ function setupNavigationHooks()
 	$('.scrollableNavElement').click(function() {
         var _this = $(this);
         $('html, body').animate({
-            scrollTop: $('#' + _this.data('scrolltarget')).offset().top + 5
+            scrollTop: $('#' + _this.data('scrolltarget')).offset().top
 
         }, speed);
 	})
@@ -74,14 +74,14 @@ function phaseIn(element)
 	console.log("phasing in " + element);
 	currentFullView = element;
 	setActiveNav(element);
-	$('#' + element + '-bg-holder').fadeIn(900);
+	//$('#' + element + '-bg-holder').fadeIn(900);
 }
 
 function phaseOut(element)
 {
 	console.log("phasing out " + element);
 	currentFullView = null;
-	$('#' + element + '-bg-holder').fadeOut(500);
+	//$('#' + element + '-bg-holder').fadeOut(500);
 }
 
 function setActiveNav(element)

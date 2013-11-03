@@ -28,7 +28,6 @@ html, body
 	min-height: 800px;
 	position: relative;
 	z-index: -998;
-	border: solid 2px #FFF;
 
 }
 
@@ -49,6 +48,7 @@ html, body
 	height: 100%;
 	overflow: hidden;
 	z-index: -999;
+	display: none;
 }
 
 /*** BootStrap Override ***/
@@ -56,17 +56,6 @@ html, body
 {
 	border-right: solid 2px #000000;
 	text-align: right;
-}
-
-@media (max-width: 768px)
-{
-	.row > .left-col
-	{
-		border-right: none;
-		text-align: left;
-	}
-
-
 }
 
 .row-spacer
@@ -80,4 +69,15 @@ html, body
 
 	text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.5);;
 	color: #fff !important;
+}
+
+
+@media (max-width: 768px){
+	.row > .left-col
+	{
+		border-right: none;
+		text-align: left;
+	}
+
+
 }

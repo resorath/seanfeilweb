@@ -145,9 +145,10 @@
 
 .bt-menu ul li a {
 	color: #04a466;
-	font-size: 22px;
+	font-size: 22px; /* Text size */
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
+
 }
 
 .bt-menu ul li a:hover,
@@ -156,7 +157,19 @@
 }
 
 @media screen and (max-height: 31.125em) {
-	.bt-menu ul li a {
-		font-size: 32px;
+	.bt-menu ul li a 
+	{
+		font-size: 18px;
+		line-height: 2px;
+	}
+
+	.bt-menu-trigger {
+		position: fixed;
+		top: 5px;
+		right: 10px;
+		display: block;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
 	}
 }
