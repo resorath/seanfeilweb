@@ -1,0 +1,83 @@
+/*** All Structures ***/
+html
+{
+}
+
+body, input, p
+{
+	font-family:Lato,Lucida Grande,Lucida Sans Unicode, Sans Serif;
+
+}
+
+h1, h3
+{
+	font-family:Coda,Lucida Grande,Lucida Sans Unicode, Sans Serif;
+
+}
+
+
+/*** Super Structure ***/
+html, body
+{
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+.pagefull
+{
+	min-height: 800px;
+	position: relative;
+	z-index: -998;
+	border: solid 2px red;
+
+}
+
+.bg-holder
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -999;
+	display: none;
+}
+
+.background-image
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -999;
+}
+
+/*** BootStrap Override ***/
+.row > .left-col
+{
+	border-right: solid 2px #000000;
+	text-align: right;
+}
+
+@media (max-width: 768px)
+{
+	.row > .left-col
+	{
+		border-right: none;
+		text-align: left;
+	}
+
+
+}
+
+.row-spacer
+{
+	height: 20px;
+}
+
+/*** Navigational Assist ***/
+.selectedNavElement
+{
+
+	text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.5);;
+	color: #fff !important;
+}
