@@ -16,9 +16,8 @@
     <![endif]-->
 </head>
   <body>
-    <div class="container">
 
-    	<nav id="bt-menu" class="bt-menu">
+    <nav id="bt-menu" class="bt-menu">
 		<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
 		<ul>
 			<li><a href="javascript:void(0)" class="scrollableNavElement" id="nav-top" data-scrolltarget="top">About Us</a></li>
@@ -33,73 +32,75 @@
 	<!-- TOP -->
 	<div id="top" class="pagefull">
 		<div id="top-bg-holder" class="bg-holder">
-			<img class="background-image">
 		</div>
-     	<div class="page-header">
-	     	<h1>YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div>
+
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
+
+	    	<div class="row-spacer"></div>
+
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
 	    </div>
-
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
-
-    	<div class="row-spacer"></div>
-
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
-    	</div>
     </div>
     <!--/TOP -->
 
 
     <!-- WHY -->
 	<div id="why" class="pagefull">
-		<div id="why-bg-holder" class="why">
-			<img class="background-image">
+		<div id="why-bg-holder" class="bg-holder">
 		</div>
-     	<div class="page-header">
-	     	<h1>WHY YAWDS</h1>
-	     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		<div class="container">
+	     	<div class="page-header">
+		     	<h1>WHY YAWDS</h1>
+		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
+		    </div>
+
+	    	<h3>Why YAWDS</h3>
+	     	<p>YAWDS provides great things</p>
+	     	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing one
+	    		</div>
+	    	</div>
+
+	    	<div class="row-spacer"></div>
+
+	    	<div class="row">
+	    		<div class="col-sm-3 left-col">
+	    			<b>great</b>
+	    		</div>
+
+	    		<div class="col-sm-6">
+	    			Great thing twol
+	    		</div>
+	    	</div>
 	    </div>
-
-    	<h3>Why YAWDS</h3>
-     	<p>YAWDS provides great things</p>
-     	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing one
-    		</div>
-    	</div>
-
-    	<div class="row-spacer"></div>
-
-    	<div class="row">
-    		<div class="col-sm-3 left-col">
-    			<b>great</b>
-    		</div>
-
-    		<div class="col-sm-6">
-    			Great thing twol
-    		</div>
-    	</div>
     </div>
     <!--/WHY -->
 
