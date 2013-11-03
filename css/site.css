@@ -28,7 +28,7 @@ html, body
 	min-height: 800px;
 	position: relative;
 	z-index: -998;
-	border: solid 2px red;
+	border: solid 2px #FFF;
 
 }
 
