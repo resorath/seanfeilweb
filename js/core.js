@@ -47,8 +47,9 @@ function setupNavigationHooks()
 /** Sets the size of each superstructure div to match that of the page height (+ overhead) **/
 function sizePageFullElements()
 {
+    var spacer = 0;
 	$('.pagefull').each(function(index) {
-		$(this).css('min-height', $(window).height() + 200);
+		$(this).css('min-height', window.screen.availHeight + spacer);
 	});
 }
 

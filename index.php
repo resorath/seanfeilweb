@@ -15,7 +15,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-  <body>
+<body>
 
     <nav id="bt-menu" class="bt-menu">
 		<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
@@ -33,35 +33,14 @@
 	<div id="top" class="pagefull">
 		<div id="top-bg-holder" class="bg-holder">
 		</div>
-		<div class="container">
-	     	<div class="page-header">
-		     	<h1>YAWDS</h1>
-		     	<p class="lead">YAWDS Provides Taglines. <a href="http://google.com">TAGLINE</a>.</p>
-		    </div>
-
-	    	<h3>Why YAWDS</h3>
-	     	<p>YAWDS provides great things</p>
-	     	<div class="row">
-	    		<div class="col-sm-3 left-col">
-	    			<b>great</b>
-	    		</div>
-
-	    		<div class="col-sm-6">
-	    			Great thing one
-	    		</div>
-	    	</div>
-
-	    	<div class="row-spacer"></div>
-
-	    	<div class="row">
-	    		<div class="col-sm-3 left-col">
-	    			<b>great</b>
-	    		</div>
-
-	    		<div class="col-sm-6">
-	    			Great thing twol
-	    		</div>
-	    	</div>
+		<div class="container container-table">
+			<div class="valigner">
+		    	<div class="jumbotron">
+					<h1>YAWDS</h1>
+					<p class="lead">Pitchfork chillwave street art, banh mi tattooed High Life tousled single-origin coffee cray synth plaid. Gentrify readymade street art, photo booth bicycle rights Odd Future banjo keffiyeh plaid you probably haven't heard of them wolf.</p>
+					<p><a class="btn btn-lg btn-success" href="#" role="button">Test</a></p>
+				</div>
+			</div>
 	    </div>
     </div>
 
