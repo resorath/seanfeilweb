@@ -61,7 +61,7 @@
 		</div>
 		<div class="container">
 	     	<h1>So... What Makes Us Different?</h1>
-	     	<p class="lead">There are so many of us after all...</p>
+	     	<p class="lead">Why choose us over your traditional "web design" shop?</p>
 
 	     	<div class="row">
 	     		<div class="col-md-4">
@@ -74,7 +74,7 @@
 					<h4>We Transform Your Content</h4>
 					<p>Not everything is suitable for the web. 
 					   The average visitor looks at a very limited part of most websites.
-					   Tell us what you want to tell your customers, and we will transform it to make sense on the web.</p>
+					   Tell us what you want to tell your customers, and we will shape it to make sense on the web.</p>
 					   <p class="learnmore"><a href="#">(Learn More)</a></p>
 	     		</div>
 
@@ -113,8 +113,40 @@
 	     				your brand deserves.</p>
 	     				<p class="learnmore"><a href="#">(Learn More)</a></p>
 	     		</div>
+	     		<div class="col-md-3">
+	     		</div>
+	     		<div class="col-md-4 toppadding50">
+
+	     			<h4>Give the People What They Want</h4>
+	     			<p>Turn your users into customers with custom web applications. Show off your products, 
+	     				create virtual interactions, and connect with online web services to really 
+	     				give your business the advantage over your competition. Sound like empty buzz words?
+	     				There are some really neat things you can do, let us help you discover them...</p>
+	     				<p class="learnmore"><a href="#">(Learn More)</a></p>
+	     		</div>
+	     	</div>
+	     	<div class="row">
+	     		<div class="col-md-4">
+	     		</div>
+	     		<div class="col-md-5">
+	     			<h4>We are Experts</h4>
+	     			<p>We aren't drones who create stale websites from the turn of this century. Let us 
+	     			consult you on modern website and webapp practices that will amaze your clients and grow
+	     			your presence.</p>
+	     			<p class="learnmore"><a href="#">(Learn More)</a></p>
+	     		</div>
 	     	</div>
 
+	     	<div class="row">
+	     		<div class="col-md-3">
+	     		</div>
+	     		<div class="col-md-6 toppadding50">
+		     		<h4>Whats Next?</h4>
+					<button type="button" id="bottom-tab" class="btn btn-primary scrollableNavElement" data-scrolltarget="services">
+						Discover What We Offer
+					</button>
+				</div>
+			</div>
 
 	    </div>
     </div>
@@ -125,9 +157,9 @@
 		</div>
 		<div class="container">
 	     	<div class="page-header">
-		     	<h1>SERVICES YAWDS</h1>
-		     	<p class="lead">YAWDS Provides Taglines. TAGLINE.</p>
-		    </div> n
+		     	<h1>Services</h1>
+		     	<p>We offer customized solutions, here is what we can do for you.</p>
+		    </div>
 
 	    	<h3>Why YAWDS</h3>
 	     	<p>YAWDS provides great things</p>
