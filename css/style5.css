@@ -54,7 +54,7 @@
 	width: 100%;
 	height: 4px;
 	margin-top: -2px;
-	background-color: #FF0000; /* Trigger button middle line */
+	background-color: #FFFFFF; /* Trigger button middle line */
 	font-size: 0px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -76,7 +76,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #FF0000; /* top and bottom of trigger button / cross */
+	background: #FFFFFF; /* top and bottom of trigger button / cross */
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;

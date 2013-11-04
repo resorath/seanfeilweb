@@ -5,14 +5,19 @@ html
 
 *{
 	font-family:'Open Sans',Lucida Grande,Lucida Sans Unicode, Sans Serif;
-	font-weight: bold;
 }
 
 h1, h3
 {
-	font-family:Coda,Lucida Grande,Lucida Sans Unicode, Sans Serif;
+	font-family:'Open Sans',Lucida Grande,Lucida Sans Unicode, Sans Serif;
 
 }
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
 
 /*** Super Structure ***/
@@ -41,9 +46,9 @@ html, body
 	height: 100%;
 	z-index: -999;
 
-	background-size: cover !important;
+	background-size: cover;
 	background-position: right;
-	-moz-background-size: cover !important;
+	-moz-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -54,7 +59,6 @@ html, body
 	{
 		background-attachment: scroll;
 	}
-
 }
 
 /** Top **/
@@ -63,12 +67,19 @@ html, body
 	background-image: url(../img/top-bg.jpg);
 }
 
+/** Why **/
 #why-bg-holder
 {
-	background-color: #FFF;
+	background-color: orangered;
+	background-image: url(../img/whitediamond.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-size: 100px 100px;
+
 	z-index: -995;
 }
 
+/** Services **/
 #services-bg-holder
 {
 	background-image: url(../img/services-bg.jpg);
@@ -96,6 +107,16 @@ html, body
 		padding-top: 0px;
 	}
 
+}
+
+.learnmore
+{
+	line-height: 0px;
+}
+
+.learnmore a
+{
+	font-size: 12px;
 }
 
 
@@ -140,6 +161,7 @@ html, body
 .jumbotron > p
 {
 	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
 	font-size: 20px;
 }
 

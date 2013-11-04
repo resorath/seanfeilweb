@@ -50,6 +50,13 @@ function sizePageFullElements()
     var spacer = 0;
 	$('.pagefull').each(function(index) {
 		$(this).css('min-height', window.screen.availHeight + spacer);
+
+        // If for some reason the child container grows to tall for mobile
+        // Make the div slightly larger than the growing container under it
+        var innercontainer = $(this).children('.container');
+
+        if(innercontainer.height() > $(this).height())
+            $(this).height(innercontainer.height() + 20);
 	});
 }
 
