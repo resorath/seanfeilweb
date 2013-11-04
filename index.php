@@ -4,6 +4,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href="css/site.css" rel="stylesheet" type="text/css">
 	<link href="css/style5.css" rel="stylesheet" type="text/css">
 	<title>Sean Feil Web</title>
@@ -36,10 +38,18 @@
 		<div class="container container-table">
 			<div class="valigner">
 		    	<div class="jumbotron">
-					<h1>YAWDS</h1>
-					<p class="lead">Pitchfork chillwave street art, banh mi tattooed High Life tousled single-origin coffee cray synth plaid. Gentrify readymade street art, photo booth bicycle rights Odd Future banjo keffiyeh plaid you probably haven't heard of them wolf.</p>
-					<p><a class="btn btn-lg btn-success" href="#" role="button">Test</a></p>
+					<h2>Are you lacking a strong web presence?</h2>
+					<p>We can take your content and put it on the web. The way it makes sense.</p>
+					<p>Simple, efficient designs that tell your customers what they want to know.</p>
+					<p>Basic websites or powerful web apps, we can build it.</p>
 				</div>
+
+				<div class="centerdiv toppadding50">
+					<button type="button" id="bottom-tab" class="btn btn-primary scrollableNavElement" data-scrolltarget="why">
+						Learn More
+					</button>
+				</div>
+			</div>
 			</div>
 	    </div>
     </div>

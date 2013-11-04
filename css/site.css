@@ -3,9 +3,9 @@ html
 {
 }
 
-body, input, p
-{
-	font-family:Lato,Lucida Grande,Lucida Sans Unicode, Sans Serif;
+*{
+	font-family:'Open Sans',Lucida Grande,Lucida Sans Unicode, Sans Serif;
+	font-weight: bold;
 }
 
 h1, h3
@@ -74,6 +74,30 @@ html, body
 	background-image: url(../img/services-bg.jpg);
 }
 
+#bottom-tab
+{
+	width: 200px;
+}
+
+.centerdiv
+{
+	display: table;
+	margin: 0 auto;
+}
+
+.toppadding50
+{
+	padding-top: 50px;
+}
+
+@media screen and (max-height: 460px) {
+	.toppadding50
+	{
+		padding-top: 0px;
+	}
+
+}
+
 
 /*** BootStrap Override ***/
 .row > .left-col
@@ -110,7 +134,42 @@ html, body
 .jumbotron
 {
 
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.jumbotron > p
+{
+	font-family:'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.jumbotron > h2
+{
+	font-family:'Lobster', cursive;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px){
+	.jumbotron
+	{
+		padding: 20px 20px 20px 20px;
+	}
+}
+
+@media screen and (max-width: 989px){
+
+	.jumbotron > p
+	{
+		font-family:'Open Sans', sans-serif;
+		font-size: 12px;
+	}
+
+	.jumbotron > h2
+	{
+		font-family:'Lobster', cursive;
+		font-size: 20px;
+	}
 }
 
 
