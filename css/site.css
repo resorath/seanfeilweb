@@ -41,7 +41,7 @@ html, body
 	height: 100%;
 	z-index: -999;
 
-	background-size: cover;
+	background-size: cover !important;
 	background-position: right;
 	-moz-background-size: cover;
     background-repeat: no-repeat;
@@ -51,7 +51,20 @@ html, body
 /** Top **/
 #top-bg-holder
 {
-	background-image: url('../img/top-bg.jpg');}
+	background: url(../img/top-bg.jpg) fixed;
+}
+
+#why-bg-holder
+{
+	background-color: #FFF;
+	z-index: -995;
+}
+
+#services-bg-holder
+{
+	background: url(../img/services-bg.jpg) fixed;
+}
+
 
 /*** BootStrap Override ***/
 .row > .left-col

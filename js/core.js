@@ -82,6 +82,7 @@ function phaseOut(element)
 {
 	console.log("phasing out " + element);
 	currentFullView = null;
+    //$('#' + element + '-bg-holder').css("position", "absolute");
 	//$('#' + element + '-bg-holder').fadeOut(500);
 }
 
