@@ -43,15 +43,24 @@ html, body
 
 	background-size: cover !important;
 	background-position: right;
-	-moz-background-size: cover;
+	-moz-background-size: cover !important;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media screen and (max-height: 600px) {
+	.bg-holder
+	{
+		background-attachment: scroll;
+	}
 
 }
 
 /** Top **/
 #top-bg-holder
 {
-	background: url(../img/top-bg.jpg) fixed;
+	background-image: url(../img/top-bg.jpg);
 }
 
 #why-bg-holder
@@ -62,7 +71,7 @@ html, body
 
 #services-bg-holder
 {
-	background: url(../img/services-bg.jpg) fixed;
+	background-image: url(../img/services-bg.jpg);
 }
 
 
